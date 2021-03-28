@@ -35,4 +35,3 @@ ffmpeg -start_number 001 -i frames%3d.png video.avi
 # cortar pedacos
 https://video.stackexchange.com/questions/4563/how-can-i-crop-a-video-with-ffmpeg
 ffmpeg -i frame163.png -filter:v "crop=177:63:257:124" -c:a copy frame163_corte.png
- 
